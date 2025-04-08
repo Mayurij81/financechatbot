@@ -10,7 +10,7 @@ from collections import defaultdict
 app = Flask(__name__)
 CORS(app)
 
-OPENAI_API_KEY = "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"
+
 openai.api_key = OPENAI_API_KEY
 
 DEFAULT_SYSTEM_MESSAGE = """
